@@ -1,7 +1,11 @@
+
+@import './test.scss';
+@import './another.scss';
 $bg-color: #333;
 
 
 body{
     background: $bg-color;
-    color:white;
+    color:$color;
+    padding: $padding-body;
 }

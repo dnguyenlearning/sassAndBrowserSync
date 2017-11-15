@@ -1,0 +1,25 @@
+{
+  "name": "sassandbrowsersync",
+  "version": "1.0.0",
+  "description": "using gulp to auto generate sass files and reload browser",
+  "main": "index.js",
+  "scripts": {
+    "start": "gulp"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dnguyenlearning/sassAndBrowserSync.git"
+  },
+  "author": "duong nguyen",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/dnguyenlearning/sassAndBrowserSync/issues"
+  },
+  "homepage": "https://github.com/dnguyenlearning/sassAndBrowserSync#readme",
+  "devDependencies": {
+    "browser-sync": "^2.18.13",
+    "gulp": "^3.9.1",
+    "gulp-concat": "^2.6.1",
+    "gulp-sass": "^3.1.0"
+  }
+}
